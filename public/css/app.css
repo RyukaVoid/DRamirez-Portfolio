@@ -11286,3 +11286,48 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.progress-bar {
+  width: 0%;
+  background-color: yellow;
+  height: 3px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 0.9rem;
+  color: white;
+  padding: 15px;
+}
+
+#section-1 {
+  background-color: #242424;
+}
+
+#section-2 {
+  background-color: #7e7e7e;
+}
+
+#section-3 {
+  background-color: #555555;
+}
+
+#section-4 {
+  background-color: #212121;
+}

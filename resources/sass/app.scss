@@ -6,3 +6,52 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// General
+html, body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+// Barra de progreso
+.progress-bar {
+    width: 0%;
+    background-color: yellow;
+    height: 3px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+// Secciones
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    font-size: $font-size-base;
+    color: $font-color-base;
+    padding: 15px;
+}
+
+#section-1{
+    background-color: rgb(36, 36, 36);
+}
+#section-2{
+    background-color: rgb(126, 126, 126);
+}
+#section-3{
+    background-color: rgb(85, 85, 85);
+}
+#section-4{
+    background-color: rgb(33, 33, 33);
+}
+
+// Contenido secciones

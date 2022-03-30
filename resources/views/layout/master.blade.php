@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @yield('css')
-    <title>@yield('title') -Portfolio</title>
+    <title>Portfolio | @yield('title')</title>
 </head>
 <body>
+    @guest
+        @include('layout.navbar')
+    @endguest
     @yield('content')
     <link rel="stylesheet" href="{{ asset('js/app.js') }}">
     @yield('js')
