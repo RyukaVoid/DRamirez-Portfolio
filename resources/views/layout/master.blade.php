@@ -13,7 +13,8 @@
         @include('layout.navbar')
     @endguest
     @yield('content')
-    <link rel="stylesheet" href="{{ asset('js/app.js') }}">
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/navbar.js') }}"></script>
     @yield('js')
 </body>
 </html>
